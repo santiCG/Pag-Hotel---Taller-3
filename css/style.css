@@ -1,4 +1,20 @@
 /********** Template CSS **********/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.80857;
+}
+
+a {
+    font-weight: bold;
+}
+
 :root {
     --primary: #FEA116;
     --light: #F1F8FF;
@@ -423,7 +439,7 @@
 .footer {
     position: relative;
     margin-top: -110px;
-    padding-top: 180px;
+    padding-top: 40px;
 }
 
 .footer .btn.btn-social {
