@@ -34,6 +34,19 @@ Este proyecto tiene como objetivo desarrollar una tienda en línea sencilla para
 
 -   Este botón debe ser grande, visible y estar anclado en el carrito, preferiblemente en la parte inferior.
 -   Un estilo destacado con colores llamativos que respeten la marca para indicar que es el último paso para finalizar la compra.
--   
+### 6. **Uso de espacio y legibilidad:**
+
+-   Los elementos de texto, botones y productos deben tener un espaciado adecuado para mejorar la experiencia visual y facilitar la interacción en pantallas táctiles.
+-   **Fuentes legibles** y contrastes de color claros para facilitar la lectura y los clics.
+
+### 7. **Interactividad simple y fluida:**
+
+-   Evitar el uso de muchas animaciones para que la página sea rápida y fluida.
+
+### 8. **Enlace a WhatsApp:**
+
+-   Al hacer clic en el botón de checkout, el mensaje generado con los productos y el precio total se debe enviar automáticamente a WhatsApp, manteniendo el diseño del carrito actualizado hasta el último momento.
+-   El botón de checkout debe llevar a una página de confirmación o directamente al enlace de WhatsApp.
+
 ## Prototipo en Figma
 ![Prototipo en Figma](https://github.com/user-attachments/assets/e024f72a-21c7-404b-9f35-9cfbf878229f)
