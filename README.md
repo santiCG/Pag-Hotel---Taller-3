@@ -50,3 +50,61 @@ Este proyecto tiene como objetivo desarrollar una tienda en línea sencilla para
 
 ## Prototipo en Figma
 ![Prototipo en Figma](https://github.com/user-attachments/assets/e024f72a-21c7-404b-9f35-9cfbf878229f)
+
+## Contenedor Productos
+![Captura de pantalla 2024-09-28 143914](https://github.com/user-attachments/assets/253451ea-6f6a-404d-8e36-252111c6b5a8)
+
+```html
+<div  class="col-lg-4 col-md-6 wow fadeInUp"  data-wow-delay="0.1s">
+
+	<div  class="room-item shadow rounded overflow-hidden">
+
+		<div  class="position-relative">
+
+			<img  class="img-fluid"  src="img/burger.jpg"  alt="">
+
+		</div>
+
+		<div  class="p-4 mt-2">
+
+			<div  class="d-flex justify-content-between mb-3">
+
+				<h5  class="mb-0">Hamburguesa</h5>
+
+				<div  class="ps-2">
+
+					<small  class="fa fa-star text-primary"></small>
+
+					<small  class="fa fa-star text-primary"></small>
+
+					<small  class="fa fa-star text-primary"></small>
+
+					<small  class="fa fa-star text-primary"></small>
+
+					<small  class="fa fa-star text-primary"></small>
+
+				</div>
+
+			</div>
+
+			<p  class="text-body mb-3">Disfruta de nuestra jugosa hamburguesa de carne 100% Angus, acompañada de bacon caramelizado, queso cheddar derretido y vegetales frescos. Todo ello coronado con nuestra salsa especial de la casa, servido en un suave pan brioche dorado.</p>
+
+			<p></p>
+
+			<hr>
+
+			<div  class="d-flex justify-content-between">
+
+				<a  class="btn btn-sm btn-primary rounded py-2 px-4"  href="">Agregar</a>
+
+				<a  class="btn btn-sm btn-dark rounded py-2 px-4"  href="">$45.000</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+```
+
