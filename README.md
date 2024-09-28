@@ -327,3 +327,27 @@ border-radius: 2px;
 
 </div>
 ```
+## Vinculación con whatsApp
+### HTML
+![Captura de pantalla 2024-09-28 154418](https://github.com/user-attachments/assets/250713c2-c5ce-4e6b-a5b2-a5ee2b2fba4f)
+
+```html
+<div  class="col-12 d-flex shopping-box">
+
+	<a  href=""  class="ml-auto btn hvr-hover"  id="whatsapp-link">Checkout</a>
+
+</div>
+```
+### JavaScript
+![Captura de pantalla 2024-09-28 154525](https://github.com/user-attachments/assets/ea821bf2-4b66-4a44-a9f7-e6ea22acb5da)
+
+```javascript
+const  productos  = ["2 Hamburguesas", "1 Spa", "2 Mojitos"]; // Lista de productos del carrito
+
+const  telefonoHotel  =  "573205955920"; // Numero del hotel en formato internacional
+
+const  mensaje  =  `Hola, quiero hacer un pedido de los siguientes productos: ${productos.join(", ")}`;
+
+  
+
+document.getElementById('whatsapp-link').href  =  `https://wa.me/${telefonoHotel}?text=${encodeURIComponent(mensaje)}`;
