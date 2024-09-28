@@ -249,3 +249,81 @@ border-radius: 2px;
 
 </tr>
 ```
+
+## Resumen de compra
+![Captura de pantalla 2024-09-28 152725](https://github.com/user-attachments/assets/3838a71b-96f2-4cbd-803c-8a6370564722)
+
+```html
+<div  class="row my-5">
+
+	<div  class="col-lg-4 col-sm-12">
+
+		<div  class="order-box">
+
+			<h3>Resumen de compra</h3>
+
+			<div  class="d-flex">
+
+				<h4>Sub Total</h4>
+
+				<div  class="ml-auto font-weight-bold"> $ 230.000 </div>
+
+				</div>
+
+			<div  class="d-flex">
+
+				<h4>Descuento</h4>
+
+				<div  class="ml-auto font-weight-bold"> $ 30.000 </div>
+
+			</div>
+
+			<hr  class="my-1">
+
+			<div  class="d-flex">
+
+				<h4>Cupon de Descuento</h4>
+
+				<div  class="ml-auto font-weight-bold"> $ 0 </div>
+
+			</div>
+
+			<div  class="d-flex">
+
+				<h4>Impuestos</h4>
+
+				<div  class="ml-auto font-weight-bold"> $ 38.000 </div>
+
+			</div>
+
+			<div  class="d-flex">
+
+				<h4>Costo domicilio</h4>
+
+				<div  class="ml-auto font-weight-bold"> $ 0 </div>
+
+			</div>
+
+			<hr>
+
+			<div  class="d-flex gr-total">
+
+				<h5>Total </h5>
+
+				<div  class="ml-auto h5"> $ 238.000 </div>
+
+			</div>
+
+			<hr>  
+		</div>
+
+	</div>
+
+	<div  class="col-12 d-flex shopping-box">
+
+		<a  href=""  class="ml-auto btn hvr-hover"  id="whatsapp-link">Checkout</a>
+
+	</div>
+
+</div>
+```
