@@ -108,3 +108,92 @@ Este proyecto tiene como objetivo desarrollar una tienda en línea sencilla para
 </div>
 ```
 
+## Botones
+![Captura de pantalla 2024-09-28 145536](https://github.com/user-attachments/assets/27cbf9fe-1ba4-46f1-88af-5746677685df) ![Captura de pantalla 2024-09-28 145545](https://github.com/user-attachments/assets/17e2d9fd-dcd5-49dd-bff3-443b7e2ff16f)
+
+
+### HTML
+```html
+<div  class="d-flex justify-content-between">
+
+	<a  class="btn btn-sm btn-primary rounded py-2 px-4"  href="">Agregar</a>
+
+	<a  class="btn btn-sm btn-dark rounded py-2 px-4"  href="">$45.000</a>
+
+</div>
+```
+### CSS
+```css
+.btn {
+
+font-weight: 500;
+
+text-transform: uppercase;
+
+transition: .5s;
+
+}
+
+  
+
+.btn.btn-primary,
+
+.btn.btn-secondary {
+
+color: #FFFFFF;
+
+}
+
+  
+
+.btn-square {
+
+width: 38px;
+
+height: 38px;
+
+}
+
+  
+
+.btn-sm-square {
+
+width: 32px;
+
+height: 32px;
+
+}
+
+  
+
+.btn-lg-square {
+
+width: 48px;
+
+height: 48px;
+
+}
+
+  
+
+.btn-square,
+
+.btn-sm-square,
+
+.btn-lg-square {
+
+padding: 0;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+font-weight: normal;
+
+border-radius: 2px;
+
+}
+```
+
