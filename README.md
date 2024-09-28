@@ -196,4 +196,56 @@ border-radius: 2px;
 
 }
 ```
+## Tabla de Carrito
+![Captura de pantalla 2024-09-28 151354](https://github.com/user-attachments/assets/8105df19-273c-4c74-991d-68e432cf5e5a)
 
+### HTML
+```html
+<tr>
+
+	<td  class="thumbnail-img">
+
+		<a  href="#">
+
+			<img  class="img-fluid"  src="img/burger.jpg"  alt=""  />
+
+		</a>
+
+	</td>
+
+	<td  class="name-pr">
+
+		<a  href="#">
+
+			Hamburguesa
+
+		</a>
+
+	</td>
+
+	<td  class="price-pr">
+
+		<p>$ 45.000</p>
+
+	</td>
+
+	<td  class="quantity-box"><input  type="number"  size="4"  value="2"  min="0"  step="1"  class="c-input-text qty text"></td>
+
+	<td  class="total-pr">
+
+		<p>$ 90.000</p>
+
+	</td>
+
+	<td  class="remove-pr">
+
+		<a  href="#">
+
+	<i  class="fas fa-times"></i>
+
+	</a>
+
+	</td>
+
+</tr>
+```
