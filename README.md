@@ -51,6 +51,10 @@ Este proyecto tiene como objetivo desarrollar una tienda en línea sencilla para
 -   Al hacer clic en el botón de checkout, el mensaje generado con los productos y el precio total se debe enviar automáticamente a WhatsApp, manteniendo el diseño del carrito actualizado hasta el último momento.
 -   El botón de checkout debe llevar a una página de confirmación o directamente al enlace de WhatsApp.
 
+## Idea inicial (Wireframes manuales)
+![IlustraciónWireframe](https://github.com/user-attachments/assets/88987e7c-518d-49dc-943f-e9ed924837b4)
+![IlustraciónWireframe (1)](https://github.com/user-attachments/assets/43e6ccdc-f3e5-47ce-8479-e7cfd0fe83a6)
+
 ## Prototipo en Figma
 ![Prototipo en Figma](https://github.com/user-attachments/assets/e024f72a-21c7-404b-9f35-9cfbf878229f)
 
